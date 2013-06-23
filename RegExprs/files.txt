@@ -1,0 +1,23 @@
+-R ~/Source/Cont84_1/theories Containers
+-R ~/Source/Cont84_1/src Containers
+-R . PDCoq
+base.v
+language.v
+language_proofs.v
+quotient_proofs.v
+generic_set_theory.v
+reg_expr.v
+re_sets.v
+dsr_dsl.v
+ilist.v
+pdrvs.v
+wf_extra.v
+symbs.v
+decide.v
+coq_lib.ml
+plugin.ml4
+theplug.mllib
+Plug.v
+relational_interpretation.v
+#test.v
+

@@ -1,0 +1,4 @@
+#!/bin/sh
+
+coqc extract.v > extr.ml
+ocamlbuild test_ocaml.native
