@@ -1,0 +1,14 @@
+-R /Users/dpereira/Source/Cont84_1/theories Containers
+-R /Users/dpereira/Source/Cont84_1/src Containers
+-I theories
+theories/kat_alph.v
+theories/base.v
+theories/atoms.v
+theories/gs.v
+theories/gl.v
+theories/kat.v
+theories/kat_pdrvs.v
+theories/wf_extra.v
+theories/generic_finite_sets.v
+theories/symbs.v
+theories/kat_dec.v

@@ -1,0 +1,13 @@
+The current development was carried out in Coq 8.4pl1, compiled with OCaml 4.00.1.
+
+This development requires the Containers contribution. 
+This is available at the following address: http://coq.inria.fr/pylons/contribs/view/Containers/v8.4
+
+The file teste.v contains some examples of compiler certification as described in the work of Kozen and Paron.
+
+The file hoare.v contains the example of the verification of the partial correctness of the factorial
+program, using KAT.
+
+To build the file one can use the following sequence of commands:
+coq_makefile -f files.txt -o Makefile ; make
+
