@@ -1,0 +1,16 @@
+### Starting build.
+# Target: test_ocaml.ml.depends, tags: { extension:ml, file:test_ocaml.ml, ocaml, ocamldep, quiet }
+/opt/local/bin/ocamldep.opt -modules test_ocaml.ml > test_ocaml.ml.depends
+# Target: extr.ml.depends, tags: { extension:ml, file:extr.ml, ocaml, ocamldep, quiet }
+/opt/local/bin/ocamldep.opt -modules extr.ml > extr.ml.depends
+# Target: extr.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:extr.cmo, file:extr.ml, implem, ocaml, quiet }
+/opt/local/bin/ocamlc.opt -c -o extr.cmo extr.ml
+# Target: test_ocaml.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:test_ocaml.cmo, file:test_ocaml.ml, implem, ocaml, quiet }
+/opt/local/bin/ocamlc.opt -c -o test_ocaml.cmo test_ocaml.ml
+# Target: extr.cmx, tags: { compile, extension:cmx, extension:ml, file:extr.cmx, file:extr.ml, implem, native, ocaml, quiet }
+/opt/local/bin/ocamlopt.opt -c -o extr.cmx extr.ml
+# Target: test_ocaml.cmx, tags: { compile, extension:cmx, extension:ml, file:test_ocaml.cmx, file:test_ocaml.ml, implem, native, ocaml, quiet }
+/opt/local/bin/ocamlopt.opt -c -o test_ocaml.cmx test_ocaml.ml
+# Target: test_ocaml.native, tags: { dont_link_with, extension:native, file:test_ocaml.native, link, native, ocaml, program, quiet }
+/opt/local/bin/ocamlopt.opt extr.cmx test_ocaml.cmx -o test_ocaml.native
+# Compilation successful.

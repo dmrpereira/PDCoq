@@ -1,0 +1,595 @@
+DIGEST 36f15686496370ab4fc4266a8bdbb44e
+FPDCoq.language
+R15:18 PDCoq.base <> <> lib
+def 199:202 <> word
+R208:211 Coq.Init.Datatypes <> list ind
+R213:213 Coq.Numbers.BinNums <> Z ind
+prf 223:234 <> word_leibniz
+R251:254 PDCoq.language <> word def
+R269:271 Coq.Init.Logic <> :type_scope:x_'='_x not
+R268:268 PDCoq.language <> x var
+R272:272 PDCoq.language <> y var
+R258:262 Coq.Classes.Equivalence <> :equiv_scope:x_'==='_x not
+R257:257 PDCoq.language <> x var
+R263:263 PDCoq.language <> y var
+def 338:346 <> WordPower
+R351:354 PDCoq.language <> word def
+R359:361 Coq.Init.Datatypes <> nat ind
+R367:374 PDCoq.base <> list_pow def
+R380:380 PDCoq.language <> n var
+R378:378 PDCoq.language <> x var
+R407:415 PDCoq.language <> WordPower def
+not 393 <> ::x_'^p'_x
+def 514:521 <> language
+R526:533 PDCoq.base <> Ensemble def
+R535:538 PDCoq.language <> word def
+R703:704 PDCoq.base <> In def
+not 688 <> ::x_'∈'_x
+ind 738:747 <> sigma_star
+constr 765:781 <> in_sigma_star_nil
+constr 806:818 <> in_sigma_star
+R751:758 PDCoq.language <> language def
+R787:791 PDCoq.language <> ::x_'∈'_x not
+R792:801 PDCoq.language <> sigma_star ind
+R785:786 PDCoq.base <> ::'[]' not
+R862:862 PDCoq.language <> ::x_'∈'_x not
+R867:872 PDCoq.language <> ::x_'∈'_x not
+R873:882 PDCoq.language <> sigma_star ind
+R864:865 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R863:863 PDCoq.language <> a var
+R866:866 PDCoq.language <> w var
+R833:837 PDCoq.language <> ::x_'∈'_x not
+R838:847 PDCoq.language <> sigma_star ind
+R832:832 PDCoq.language <> w var
+R904:913 PDCoq.language <> sigma_star ind
+R945:954 PDCoq.language <> sigma_star ind
+not 933 <> ::'∑∗'
+R1086:1093 PDCoq.base <> Included def
+not 1072 <> ::x_'⊆'_x
+def 1128:1138 <> language_wf
+R1143:1150 PDCoq.language <> language def
+R1157:1162 PDCoq.language <> ::x_'⊆'_x not
+R1173:1173 PDCoq.language <> ::x_'⊆'_x not
+R1156:1156 PDCoq.language <> L var
+R1163:1172 PDCoq.language <> sigma_star ind
+def 1188:1194 <> empty_l
+R1201:1209 PDCoq.base <> Empty_set ind
+R1212:1215 PDCoq.language <> word def
+R1240:1246 PDCoq.language <> empty_l def
+not 1230 <> ::'∅'
+R1280:1288 PDCoq.language <> Empty_set ind
+def 1310:1314 <> eps_l
+R1320:1328 PDCoq.base <> Singleton ind
+R1335:1337 Coq.Init.Datatypes <> nil constr
+R1330:1333 PDCoq.language <> word def
+R1363:1367 PDCoq.language <> eps_l def
+not 1351 <> ::'{ε}'
+R1388:1396 PDCoq.language <> Singleton ind
+ind 1416:1421 <> symb_l
+constr 1445:1451 <> in_sing
+R1426:1426 Coq.Numbers.BinNums <> Z ind
+R1431:1438 PDCoq.language <> language def
+R1476:1476 PDCoq.language <> ::x_'∈'_x not
+R1483:1488 PDCoq.language <> ::x_'∈'_x not
+R1489:1494 PDCoq.language <> symb_l ind
+R1478:1479 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R1477:1477 PDCoq.language <> x var
+R1480:1482 Coq.Init.Datatypes <> nil constr
+R1466:1470 Coq.Classes.Equivalence <> :equiv_scope:x_'==='_x not
+R1465:1465 PDCoq.language <> x var
+R1523:1528 PDCoq.language <> symb_l ind
+not 1509 <> ::'{{'_x_'}}'
+R1564:1569 PDCoq.language <> symb_l ind
+def 1590:1596 <> union_l
+R1604:1611 PDCoq.language <> language def
+R1617:1621 PDCoq.base <> Union ind
+R1630:1631 PDCoq.language <> l' var
+R1628:1628 PDCoq.language <> l var
+R1623:1626 PDCoq.language <> word def
+R1649:1655 PDCoq.language <> union_l def
+not 1640 <> ::x_'∪'_x
+R1689:1693 PDCoq.language <> Union ind
+ind 1777:1782 <> conc_l
+constr 1817:1826 <> conc_l_app
+R1791:1798 PDCoq.language <> language def
+R1803:1810 PDCoq.language <> language def
+R1893:1898 PDCoq.language <> ::x_'∈'_x not
+R1911:1911 PDCoq.language <> ::x_'∈'_x not
+R1899:1904 PDCoq.language <> conc_l ind
+R1881:1884 Coq.Init.Datatypes <> :list_scope:x_'++'_x not
+R1879:1880 PDCoq.language <> w1 var
+R1885:1886 PDCoq.language <> w2 var
+R1867:1871 PDCoq.language <> ::x_'∈'_x not
+R1865:1866 PDCoq.language <> w2 var
+R1854:1858 PDCoq.language <> ::x_'∈'_x not
+R1852:1853 PDCoq.language <> w1 var
+R1930:1935 PDCoq.language <> conc_l ind
+not 1920 <> ::x_'•'_x
+R1957:1962 PDCoq.language <> conc_l ind
+def 2027:2033 <> conc_ln
+R2038:2045 PDCoq.language <> language def
+R2050:2052 Coq.Init.Datatypes <> nat ind
+R2057:2064 PDCoq.language <> language def
+R2077:2077 PDCoq.language <> n var
+R2099:2102 PDCoq.language <> ::'{ε}' not
+R2111:2111 Coq.Init.Datatypes <> S constr
+R2119:2124 PDCoq.language <> ::x_'•'_x not
+R2136:2136 PDCoq.language <> ::x_'•'_x not
+R2118:2118 PDCoq.language <> L var
+R2125:2131 PDCoq.language <> conc_ln def
+R2133:2133 PDCoq.language <> L var
+R2171:2177 PDCoq.language <> conc_ln def
+not 2154 <> ::x_'••'_x
+ind 2237:2242 <> star_l
+constr 2273:2279 <> starL_n
+R2247:2254 PDCoq.language <> language def
+R2259:2266 PDCoq.language <> language def
+R2325:2331 PDCoq.language <> ::x_'∈'_x not
+R2340:2340 PDCoq.language <> ::x_'∈'_x not
+R2332:2337 PDCoq.language <> star_l ind
+R2324:2324 PDCoq.language <> w var
+R2303:2308 PDCoq.language <> ::x_'∈'_x not
+R2319:2319 PDCoq.language <> ::x_'∈'_x not
+R2310:2317 PDCoq.language <> ::x_'••'_x not
+R2318:2318 PDCoq.language <> n var
+R2302:2302 PDCoq.language <> w var
+R2365:2370 PDCoq.language <> star_l ind
+not 2353 <> ::x_'∗'
+ind 2428:2433 <> plus_l
+constr 2464:2475 <> starplus_l_n
+R2438:2445 PDCoq.language <> language def
+R2450:2457 PDCoq.language <> language def
+R2524:2529 PDCoq.language <> ::x_'∈'_x not
+R2538:2538 PDCoq.language <> ::x_'∈'_x not
+R2530:2535 PDCoq.language <> plus_l ind
+R2523:2523 PDCoq.language <> w var
+R2500:2505 PDCoq.language <> ::x_'∈'_x not
+R2518:2518 PDCoq.language <> ::x_'∈'_x not
+R2507:2514 PDCoq.language <> ::x_'••'_x not
+R2515:2515 Coq.Init.Datatypes <> S constr
+R2517:2517 PDCoq.language <> n var
+R2499:2499 PDCoq.language <> w var
+R2563:2568 PDCoq.language <> plus_l ind
+not 2551 <> ::x_'⁺'
+R2593:2598 PDCoq.language <> star_l ind
+R2600:2605 PDCoq.language <> plus_l ind
+prf 2621:2630 <> _A_leibniz
+R2649:2649 Coq.Numbers.BinNums <> Z ind
+R2669:2671 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2668:2668 PDCoq.language <> a var
+R2672:2672 PDCoq.language <> b var
+R2658:2662 Coq.Classes.Equivalence <> :equiv_scope:x_'==='_x not
+R2657:2657 PDCoq.language <> a var
+R2663:2663 PDCoq.language <> b var
+def 2719:2721 <> leq
+R2730:2737 PDCoq.language <> language def
+R2743:2750 PDCoq.base <> Same_set def
+R2762:2763 PDCoq.language <> L2 var
+R2759:2760 PDCoq.language <> L1 var
+R2753:2756 PDCoq.language <> word def
+R2790:2792 PDCoq.language <> leq def
+not 2776 <> ::x_'∼'_x
+R2837:2838 Coq.Init.Logic <> :type_scope:'~'_x not
+R2846:2846 Coq.Init.Logic <> :type_scope:'~'_x not
+R2840:2844 PDCoq.language <> ::x_'∼'_x not
+not 2822 <> ::x_'!∼'_x
+sec 2872:2890 <> WellFormedLanguages
+prf 2902:2911 <> empty_l_wf
+R2920:2930 PDCoq.language <> language_wf def
+R2932:2934 PDCoq.language <> ::'∅' not
+prf 2995:3002 <> eps_l_wf
+R3011:3021 PDCoq.language <> language_wf def
+R3023:3026 PDCoq.language <> ::'{ε}' not
+prf 3108:3116 <> symb_l_wf
+R3141:3151 PDCoq.language <> language_wf def
+R3153:3154 PDCoq.language <> ::'{{'_x_'}}' not
+R3156:3157 PDCoq.language <> ::'{{'_x_'}}' not
+R3155:3155 PDCoq.language <> s var
+prf 3239:3248 <> union_l_wf
+R3270:3277 PDCoq.language <> language def
+R3295:3305 PDCoq.language <> language_wf def
+R3307:3308 PDCoq.language <> L1 var
+R3314:3324 PDCoq.language <> language_wf def
+R3326:3327 PDCoq.language <> L2 var
+R3337:3347 PDCoq.language <> language_wf def
+R3352:3356 PDCoq.language <> ::x_'∪'_x not
+R3350:3351 PDCoq.language <> L1 var
+R3357:3358 PDCoq.language <> L2 var
+R3382:3392 PDCoq.language <> language_wf def
+R3394:3401 PDCoq.base <> Included def
+prf 3455:3463 <> conc_l_wf
+R3485:3492 PDCoq.language <> language def
+R3510:3520 PDCoq.language <> language_wf def
+R3522:3523 PDCoq.language <> L1 var
+R3529:3539 PDCoq.language <> language_wf def
+R3541:3542 PDCoq.language <> L2 var
+R3552:3562 PDCoq.language <> language_wf def
+R3567:3571 PDCoq.language <> ::x_'•'_x not
+R3565:3566 PDCoq.language <> L1 var
+R3572:3573 PDCoq.language <> L2 var
+R3597:3607 PDCoq.language <> language_wf def
+R3609:3616 PDCoq.base <> Included def
+R3737:3749 Coq.Lists.List <> app_comm_cons thm
+R3737:3749 Coq.Lists.List <> app_comm_cons thm
+prf 3783:3791 <> conc_ln_0
+R3816:3816 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3827:3830 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3818:3825 PDCoq.language <> ::x_'••'_x not
+R3817:3817 PDCoq.language <> l var
+R3831:3834 PDCoq.language <> ::'{ε}' not
+prf 3879:3887 <> conc_ln_n
+R3914:3914 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3929:3933 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3952:3952 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3916:3924 PDCoq.language <> ::x_'••'_x not
+R3928:3928 PDCoq.language <> ::x_'••'_x not
+R3915:3915 PDCoq.language <> l var
+R3926:3926 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R3925:3925 PDCoq.language <> n var
+R3935:3940 PDCoq.language <> ::x_'•'_x not
+R3951:3951 PDCoq.language <> ::x_'•'_x not
+R3934:3934 PDCoq.language <> l var
+R3942:3949 PDCoq.language <> ::x_'••'_x not
+R3941:3941 PDCoq.language <> l var
+R3950:3950 PDCoq.language <> n var
+R3990:3992 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R4002:4002 Coq.Init.Datatypes <> S constr
+R4002:4002 Coq.Init.Datatypes <> S constr
+R3990:3992 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+prf 4054:4063 <> conc_ln_wf
+R4098:4108 PDCoq.language <> language_wf def
+R4110:4110 PDCoq.language <> L var
+R4120:4130 PDCoq.language <> language_wf def
+R4134:4141 PDCoq.language <> ::x_'••'_x not
+R4133:4133 PDCoq.language <> L var
+R4142:4142 PDCoq.language <> n var
+R4178:4188 PDCoq.language <> language_wf def
+R4190:4197 PDCoq.base <> Included def
+R4307:4315 PDCoq.language <> conc_l_wf thm
+R4307:4315 PDCoq.language <> conc_l_wf thm
+R4358:4363 PDCoq.language <> ::x_'••'_x not
+R4358:4363 PDCoq.language <> ::x_'••'_x not
+prf 4399:4407 <> star_l_wf
+R4441:4451 PDCoq.language <> language_wf def
+R4453:4453 PDCoq.language <> L var
+R4464:4474 PDCoq.language <> language_wf def
+R4478:4480 PDCoq.language <> ::x_'∗' not
+R4477:4477 PDCoq.language <> L var
+R4504:4514 PDCoq.language <> language_wf def
+R4516:4523 PDCoq.base <> Included def
+R0:-1 PDCoq.language <> y var
+R0:-1 PDCoq.language <> y var
+R0:-1 PDCoq.language <> y var
+R4575:4584 PDCoq.language <> conc_ln_wf thm
+R4602:4612 PDCoq.language <> language_wf def
+R4614:4621 PDCoq.base <> Included def
+R4575:4584 PDCoq.language <> conc_ln_wf thm
+prf 4689:4697 <> plus_l_wf
+R4717:4727 PDCoq.language <> language_wf def
+R4729:4729 PDCoq.language <> L var
+R4740:4750 PDCoq.language <> language_wf def
+R4754:4756 PDCoq.language <> ::x_'⁺' not
+R4753:4753 PDCoq.language <> L var
+R4780:4790 PDCoq.language <> language_wf def
+R4792:4799 PDCoq.base <> Included def
+R0:-1 PDCoq.language <> y var
+R0:-1 PDCoq.language <> y var
+R0:-1 PDCoq.language <> y var
+R4851:4860 PDCoq.language <> conc_ln_wf thm
+R4878:4888 PDCoq.language <> language_wf def
+R4890:4897 PDCoq.base <> Included def
+R4851:4860 PDCoq.language <> conc_ln_wf thm
+R4934:4934 Coq.Init.Datatypes <> S constr
+R4934:4934 Coq.Init.Datatypes <> S constr
+R4963:4981 PDCoq.language WellFormedLanguages <> sec
+R5059:5064 PDCoq.language <> ::x_'∼'_x not
+R5102:5106 PDCoq.language <> ::x_'∼'_x not
+R5102:5106 PDCoq.language <> ::x_'∼'_x not
+R5188:5191 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5188:5191 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5159:5161 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5275:5279 PDCoq.language <> ::x_'∈'_x not
+R5280:5283 PDCoq.language <> ::'{ε}' not
+R5273:5274 PDCoq.base <> ::'[]' not
+R5320:5325 PDCoq.language <> ::x_'∈'_x not
+R5361:5366 PDCoq.language <> ::x_'∼'_x not
+R5361:5366 PDCoq.language <> ::x_'∼'_x not
+R5376:5381 PDCoq.language <> ::x_'∈'_x not
+R5376:5381 PDCoq.language <> ::x_'∈'_x not
+R5420:5424 PDCoq.language <> ::x_'∼'_x not
+R5420:5424 PDCoq.language <> ::x_'∼'_x not
+R5434:5439 PDCoq.language <> ::x_'∈'_x not
+R5434:5439 PDCoq.language <> ::x_'∈'_x not
+R5492:5497 PDCoq.language <> ::x_'⊆'_x not
+R5540:5543 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5540:5543 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5623:5628 PDCoq.language <> ::x_'⊆'_x not
+R5623:5628 PDCoq.language <> ::x_'⊆'_x not
+R5640:5644 PDCoq.language <> ::x_'⊆'_x not
+R5640:5644 PDCoq.language <> ::x_'⊆'_x not
+R5521:5523 Coq.Init.Logic <> :type_scope:x_'='_x not
+inst 5919:5927 <> leq_equiv
+R5931:5941 Coq.Classes.RelationClasses <> Equivalence class
+R5943:5945 PDCoq.language <> leq def
+R5976:5978 PDCoq.language <> leq def
+R5991:5999 Coq.Classes.RelationClasses <> Reflexive class
+R6008:6016 Coq.Classes.RelationClasses <> Symmetric class
+R6025:6034 Coq.Classes.RelationClasses <> Transitive class
+inst 6211:6218 <> symb_l_m
+R6223:6228 Coq.Classes.Morphisms <> Proper class
+R6243:6248 PDCoq.language <> symb_l ind
+R6232:6236 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R6230:6231 Coq.Init.Logic <> eq ind
+R6237:6239 PDCoq.language <> leq def
+inst 6379:6387 <> union_l_m
+R6392:6397 Coq.Classes.Morphisms <> Proper class
+R6420:6426 PDCoq.language <> union_l def
+R6402:6406 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R6399:6401 PDCoq.language <> leq def
+R6410:6414 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R6407:6409 PDCoq.language <> leq def
+R6415:6417 PDCoq.language <> leq def
+R0:-1 PDCoq.language <> y var
+R0:-1 PDCoq.language <> y var
+R0:-1 PDCoq.language <> y var
+R0:-1 PDCoq.language <> y var
+R0:-1 PDCoq.language <> y var
+inst 6577:6584 <> conc_l_m
+R6588:6593 Coq.Classes.Morphisms <> Proper class
+R6616:6621 PDCoq.language <> conc_l ind
+R6598:6602 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R6595:6597 PDCoq.language <> leq def
+R6606:6610 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R6603:6605 PDCoq.language <> leq def
+R6611:6613 PDCoq.language <> leq def
+R6656:6663 PDCoq.base <> Included def
+inst 6763:6771 <> conc_ln_m
+R6775:6780 Coq.Classes.Morphisms <> Proper class
+R6803:6809 PDCoq.language <> conc_ln def
+R6785:6789 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R6782:6784 PDCoq.language <> leq def
+R6793:6797 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R6790:6792 Containers.OrderedType <> _eq meth
+R6798:6800 PDCoq.language <> leq def
+R6981:6988 PDCoq.language <> conc_l_m inst
+R6981:6988 PDCoq.language <> conc_l_m inst
+R7053:7060 PDCoq.language <> conc_l_m inst
+R7053:7060 PDCoq.language <> conc_l_m inst
+inst 7105:7112 <> star_l_m
+R7117:7122 Coq.Classes.Morphisms <> Proper class
+R7137:7142 PDCoq.language <> star_l ind
+R7127:7131 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R7124:7126 PDCoq.language <> leq def
+R7132:7134 PDCoq.language <> leq def
+R7195:7202 PDCoq.base <> Included def
+R7295:7299 PDCoq.language <> ::x_'∈'_x not
+R7300:7303 PDCoq.language <> ::'{ε}' not
+R7295:7299 PDCoq.language <> ::x_'∈'_x not
+R7300:7303 PDCoq.language <> ::'{ε}' not
+R7371:7376 PDCoq.language <> ::x_'∈'_x not
+R7384:7384 PDCoq.language <> ::x_'∈'_x not
+R7378:7382 PDCoq.language <> ::x_'•'_x not
+R7371:7376 PDCoq.language <> ::x_'∈'_x not
+R7384:7384 PDCoq.language <> ::x_'∈'_x not
+R7378:7382 PDCoq.language <> ::x_'•'_x not
+R7542:7547 PDCoq.language <> ::x_'∈'_x not
+R7559:7559 PDCoq.language <> ::x_'∈'_x not
+R7549:7557 PDCoq.language <> ::x_'••'_x not
+R7542:7547 PDCoq.language <> ::x_'∈'_x not
+R7559:7559 PDCoq.language <> ::x_'∈'_x not
+R7549:7557 PDCoq.language <> ::x_'••'_x not
+R7606:7606 Coq.Init.Datatypes <> S constr
+R7650:7658 PDCoq.language <> conc_ln_m inst
+R7606:7606 Coq.Init.Datatypes <> S constr
+R7650:7658 PDCoq.language <> conc_ln_m inst
+R7606:7606 Coq.Init.Datatypes <> S constr
+R7650:7658 PDCoq.language <> conc_ln_m inst
+inst 7709:7716 <> plus_l_m
+R7720:7725 Coq.Classes.Morphisms <> Proper class
+R7740:7745 PDCoq.language <> plus_l ind
+R7730:7734 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R7727:7729 PDCoq.language <> leq def
+R7735:7737 PDCoq.language <> leq def
+R7784:7791 PDCoq.base <> Included def
+R7916:7921 PDCoq.language <> ::x_'∈'_x not
+R7932:7932 PDCoq.language <> ::x_'∈'_x not
+R7923:7927 PDCoq.language <> ::x_'•'_x not
+R7928:7931 PDCoq.language <> ::'{ε}' not
+R7916:7921 PDCoq.language <> ::x_'∈'_x not
+R7932:7932 PDCoq.language <> ::x_'∈'_x not
+R7923:7927 PDCoq.language <> ::x_'•'_x not
+R7928:7931 PDCoq.language <> ::'{ε}' not
+R8158:8163 PDCoq.language <> ::x_'∈'_x not
+R8171:8171 PDCoq.language <> ::x_'∈'_x not
+R8165:8169 PDCoq.language <> ::x_'•'_x not
+R8158:8163 PDCoq.language <> ::x_'∈'_x not
+R8171:8171 PDCoq.language <> ::x_'∈'_x not
+R8165:8169 PDCoq.language <> ::x_'•'_x not
+R8329:8335 PDCoq.language <> ::x_'∈'_x not
+R8355:8355 PDCoq.language <> ::x_'∈'_x not
+R8337:8342 PDCoq.language <> ::x_'•'_x not
+R8354:8354 PDCoq.language <> ::x_'•'_x not
+R8344:8352 PDCoq.language <> ::x_'••'_x not
+R8329:8335 PDCoq.language <> ::x_'∈'_x not
+R8355:8355 PDCoq.language <> ::x_'∈'_x not
+R8337:8342 PDCoq.language <> ::x_'•'_x not
+R8354:8354 PDCoq.language <> ::x_'•'_x not
+R8344:8352 PDCoq.language <> ::x_'••'_x not
+R8424:8424 Coq.Init.Datatypes <> S constr
+R8519:8524 PDCoq.language <> ::x_'∈'_x not
+R8536:8536 PDCoq.language <> ::x_'∈'_x not
+R8526:8534 PDCoq.language <> ::x_'••'_x not
+R8519:8524 PDCoq.language <> ::x_'∈'_x not
+R8536:8536 PDCoq.language <> ::x_'∈'_x not
+R8526:8534 PDCoq.language <> ::x_'••'_x not
+R8611:8619 PDCoq.language <> conc_ln_m inst
+R7997:8001 PDCoq.language <> ::x_'∈'_x not
+R8002:8005 PDCoq.language <> ::'{ε}' not
+R7997:8001 PDCoq.language <> ::x_'∈'_x not
+R8002:8005 PDCoq.language <> ::'{ε}' not
+R8424:8424 Coq.Init.Datatypes <> S constr
+R8611:8619 PDCoq.language <> conc_ln_m inst
+R8424:8424 Coq.Init.Datatypes <> S constr
+R8611:8619 PDCoq.language <> conc_ln_m inst
+R8774:8783 PDCoq.language <> empty_l_wf thm
+R8791:8798 PDCoq.language <> eps_l_wf thm
+R8806:8814 PDCoq.language <> symb_l_wf thm
+R8822:8831 PDCoq.language <> union_l_wf thm
+R8839:8847 PDCoq.language <> conc_l_wf thm
+R8855:8863 PDCoq.language <> conc_ln_0 thm
+R8872:8880 PDCoq.language <> conc_ln_n thm
+R8888:8897 PDCoq.language <> conc_ln_wf thm
+R8905:8913 PDCoq.language <> star_l_wf thm
+R8922:8930 PDCoq.language <> plus_l_wf thm
+def 8995:8998 <> lleq
+R9007:9014 PDCoq.language <> language def
+R9020:9020 PDCoq.language <> ::x_'∼'_x not
+R9030:9035 PDCoq.language <> ::x_'∼'_x not
+R9023:9027 PDCoq.language <> ::x_'∪'_x not
+R9021:9022 PDCoq.language <> L1 var
+R9028:9029 PDCoq.language <> L2 var
+R9036:9037 PDCoq.language <> L2 var
+R9064:9067 PDCoq.language <> lleq def
+not 9050 <> ::x_'≤'_x
+inst 9105:9110 <> lleq_m
+R9114:9119 Coq.Classes.Morphisms <> Proper class
+R9142:9145 PDCoq.language <> lleq def
+R9124:9128 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R9121:9123 PDCoq.language <> leq def
+R9132:9136 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R9129:9131 PDCoq.language <> leq def
+R9137:9139 Coq.Init.Logic <> iff def
+R9184:9187 PDCoq.language <> lleq def
+R9270:9275 PDCoq.language <> lleq_m inst
+inst 9302:9313 <> union_l_lleq
+R9317:9322 Coq.Classes.Morphisms <> Proper class
+R9348:9354 PDCoq.language <> union_l def
+R9328:9332 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R9324:9327 PDCoq.language <> lleq def
+R9337:9341 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R9333:9336 PDCoq.language <> lleq def
+R9342:9345 PDCoq.language <> lleq def
+R9384:9391 PDCoq.base <> Included def
+inst 9587:9597 <> conc_l_lleq
+R9602:9607 Coq.Classes.Morphisms <> Proper class
+R9633:9638 PDCoq.language <> conc_l ind
+R9613:9617 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R9609:9612 PDCoq.language <> lleq def
+R9622:9626 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R9618:9621 PDCoq.language <> lleq def
+R9627:9630 PDCoq.language <> lleq def
+R9668:9675 PDCoq.base <> Included def
+inst 9854:9864 <> star_l_lleq
+R9869:9874 Coq.Classes.Morphisms <> Proper class
+R9891:9896 PDCoq.language <> star_l ind
+R9880:9884 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R9876:9879 PDCoq.language <> lleq def
+R9885:9888 PDCoq.language <> lleq def
+R9926:9933 PDCoq.base <> Included def
+ind 10244:10245 <> rl
+constr 10271:10273 <> rl0
+constr 10286:10288 <> rl1
+constr 10302:10305 <> rlsy
+constr 10330:10332 <> rlp
+constr 10385:10387 <> rlc
+constr 10440:10443 <> rlst
+R10249:10256 PDCoq.language <> language def
+R10277:10278 PDCoq.language <> rl ind
+R10280:10282 PDCoq.language <> ::'∅' not
+R10292:10293 PDCoq.language <> rl ind
+R10295:10298 PDCoq.language <> ::'{ε}' not
+R10319:10320 PDCoq.language <> rl ind
+R10322:10323 PDCoq.language <> ::'{{'_x_'}}' not
+R10325:10326 PDCoq.language <> ::'{{'_x_'}}' not
+R10324:10324 PDCoq.language <> a var
+R10368:10369 PDCoq.language <> rl ind
+R10374:10378 PDCoq.language <> ::x_'∪'_x not
+R10372:10373 PDCoq.language <> l1 var
+R10379:10380 PDCoq.language <> l2 var
+R10359:10360 PDCoq.language <> rl ind
+R10362:10363 PDCoq.language <> l2 var
+R10350:10351 PDCoq.language <> rl ind
+R10353:10354 PDCoq.language <> l1 var
+R10423:10424 PDCoq.language <> rl ind
+R10429:10433 PDCoq.language <> ::x_'•'_x not
+R10427:10428 PDCoq.language <> l1 var
+R10434:10435 PDCoq.language <> l2 var
+R10414:10415 PDCoq.language <> rl ind
+R10417:10418 PDCoq.language <> l2 var
+R10405:10406 PDCoq.language <> rl ind
+R10408:10409 PDCoq.language <> l1 var
+R10465:10466 PDCoq.language <> rl ind
+R10470:10472 PDCoq.language <> ::x_'∗' not
+R10469:10469 PDCoq.language <> l var
+R10457:10458 PDCoq.language <> rl ind
+R10460:10460 PDCoq.language <> l var
+ind 10616:10617 <> LQ
+constr 10653:10658 <> in_quo
+R10622:10629 PDCoq.language <> language def
+R10639:10646 PDCoq.language <> language def
+R10634:10634 Coq.Numbers.BinNums <> Z ind
+R10691:10696 PDCoq.language <> ::x_'∈'_x not
+R10703:10703 PDCoq.language <> ::x_'∈'_x not
+R10697:10698 PDCoq.language <> LQ ind
+R10702:10702 PDCoq.language <> a var
+R10690:10690 PDCoq.language <> x var
+R10674:10674 PDCoq.language <> ::x_'∈'_x not
+R10679:10684 PDCoq.language <> ::x_'∈'_x not
+R10676:10677 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R10675:10675 PDCoq.language <> a var
+R10678:10678 PDCoq.language <> x var
+R10729:10730 PDCoq.language <> LQ ind
+not 10715 <> ::x_'%Lq'_x
+ind 10823:10825 <> LQw
+constr 10864:10870 <> in_quow
+R10830:10837 PDCoq.language <> language def
+R10850:10857 PDCoq.language <> language def
+R10842:10845 PDCoq.language <> word def
+R10910:10915 PDCoq.language <> ::x_'∈'_x not
+R10923:10923 PDCoq.language <> ::x_'∈'_x not
+R10916:10918 PDCoq.language <> LQw ind
+R10922:10922 PDCoq.language <> w var
+R10909:10909 PDCoq.language <> x var
+R10899:10903 PDCoq.language <> ::x_'∈'_x not
+R10888:10891 Coq.Init.Datatypes <> :list_scope:x_'++'_x not
+R10887:10887 PDCoq.language <> w var
+R10892:10892 PDCoq.language <> x var
+R10950:10952 PDCoq.language <> LQw ind
+not 10935 <> ::x_'%Lqw'_x
+R10979:10980 PDCoq.language <> LQ ind
+R10982:10984 PDCoq.language <> LQw ind
+inst 11010:11013 <> LQ_m
+R11017:11022 Coq.Classes.Morphisms <> Proper class
+R11045:11046 PDCoq.language <> LQ ind
+R11028:11032 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R11025:11027 PDCoq.language <> leq def
+R11035:11039 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R11033:11034 Coq.Init.Logic <> eq ind
+R11040:11042 PDCoq.language <> leq def
+inst 11178:11182 <> LQw_m
+R11186:11191 Coq.Classes.Morphisms <> Proper class
+R11213:11215 PDCoq.language <> LQw ind
+R11196:11200 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R11193:11195 PDCoq.language <> leq def
+R11203:11207 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R11201:11202 Coq.Init.Logic <> eq ind
+R11208:11210 PDCoq.language <> leq def
+inst 11347:11352 <> LQ_m_m
+R11356:11361 Coq.Classes.Morphisms <> Proper class
+R11385:11386 PDCoq.language <> LQ ind
+R11367:11371 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R11364:11366 PDCoq.language <> leq def
+R11375:11379 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R11372:11374 Containers.OrderedType <> _eq meth
+R11380:11382 PDCoq.language <> leq def
+inst 11491:11497 <> LQw_m_m
+R11501:11506 Coq.Classes.Morphisms <> Proper class
+R11529:11531 PDCoq.language <> LQw ind
+R11511:11515 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R11508:11510 PDCoq.language <> leq def
+R11519:11523 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R11516:11518 Containers.OrderedType <> _eq meth
+R11524:11526 PDCoq.language <> leq def
+R11657:11668 PDCoq.language <> word_leibniz thm
+R11657:11668 PDCoq.language <> word_leibniz thm
+R11657:11668 PDCoq.language <> word_leibniz thm

@@ -1,0 +1,368 @@
+DIGEST 7db7d54e0ddbeebf0b9727799dedb831
+FPDCoq.reg_expr
+R42:56 PDCoq.quotient_proofs <> <> lib
+ind 207:208 <> re
+constr 223:225 <> re0
+constr 234:236 <> re1
+constr 245:249 <> re_sy
+constr 263:270 <> re_union
+constr 291:297 <> re_conc
+constr 318:324 <> re_star
+R229:230 PDCoq.reg_expr <> re ind
+R240:241 PDCoq.reg_expr <> re ind
+R258:259 PDCoq.reg_expr <> re ind
+R253:253 Coq.Numbers.BinNums <> Z ind
+R286:287 PDCoq.reg_expr <> re ind
+R280:281 PDCoq.reg_expr <> re ind
+R274:275 PDCoq.reg_expr <> re ind
+R313:314 PDCoq.reg_expr <> re ind
+R307:308 PDCoq.reg_expr <> re ind
+R301:302 PDCoq.reg_expr <> re ind
+R334:335 PDCoq.reg_expr <> re ind
+R328:329 PDCoq.reg_expr <> re ind
+R386:387 PDCoq.reg_expr <> re ind
+R417:419 PDCoq.reg_expr <> re0 constr
+not 405 <> ::'0'
+R443:445 PDCoq.reg_expr <> re1 constr
+not 431 <> ::'1'
+R468:472 PDCoq.reg_expr <> re_sy constr
+not 457 <> ::'\!'_x
+R513:520 PDCoq.reg_expr <> re_union constr
+not 500 <> ::x_'+'_x
+R583:589 PDCoq.reg_expr <> re_conc constr
+not 569 <> ::x_'·'_x
+R653:659 PDCoq.reg_expr <> re_star constr
+not 638 <> ::x_'⋆'
+def 725:730 <> len_re
+R736:737 PDCoq.reg_expr <> re ind
+R742:744 Coq.Init.Datatypes <> nat ind
+R757:757 PDCoq.reg_expr <> r var
+R776:776 Coq.Init.Datatypes <> S constr
+R778:778 Coq.Init.Datatypes <> O constr
+R794:794 Coq.Init.Datatypes <> S constr
+R796:796 Coq.Init.Datatypes <> O constr
+R805:806 PDCoq.reg_expr <> ::'\!'_x not
+R813:813 Coq.Init.Datatypes <> S constr
+R815:815 Coq.Init.Datatypes <> O constr
+R825:827 PDCoq.reg_expr <> ::x_'+'_x not
+R833:833 Coq.Init.Datatypes <> S constr
+R844:846 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R836:841 PDCoq.reg_expr <> len_re def
+R847:852 PDCoq.reg_expr <> len_re def
+R864:867 PDCoq.reg_expr <> ::x_'·'_x not
+R873:873 Coq.Init.Datatypes <> S constr
+R884:886 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R876:881 PDCoq.reg_expr <> len_re def
+R887:892 PDCoq.reg_expr <> len_re def
+R904:907 PDCoq.reg_expr <> ::x_'⋆' not
+R912:912 Coq.Init.Datatypes <> S constr
+R915:920 PDCoq.reg_expr <> len_re def
+def 1015:1019 <> sylen
+R1025:1026 PDCoq.reg_expr <> re ind
+R1031:1033 Coq.Init.Datatypes <> nat ind
+R1046:1046 PDCoq.reg_expr <> r var
+R1064:1064 Coq.Init.Datatypes <> O constr
+R1077:1077 Coq.Init.Datatypes <> O constr
+R1085:1086 PDCoq.reg_expr <> ::'\!'_x not
+R1093:1093 Coq.Init.Datatypes <> S constr
+R1095:1095 Coq.Init.Datatypes <> O constr
+R1105:1107 PDCoq.reg_expr <> ::x_'+'_x not
+R1113:1116 Coq.Init.Peano <> plus def
+R1129:1133 PDCoq.reg_expr <> sylen def
+R1119:1123 PDCoq.reg_expr <> sylen def
+R1145:1148 PDCoq.reg_expr <> ::x_'·'_x not
+R1154:1157 Coq.Init.Peano <> plus def
+R1170:1174 PDCoq.reg_expr <> sylen def
+R1160:1164 PDCoq.reg_expr <> sylen def
+R1186:1189 PDCoq.reg_expr <> ::x_'⋆' not
+R1195:1199 PDCoq.reg_expr <> sylen def
+R1234:1238 PDCoq.reg_expr <> sylen def
+not 1220 <> ::'|<'_x_'>|'
+def 1254:1259 <> re2rel
+R1265:1266 PDCoq.reg_expr <> re ind
+R1271:1278 PDCoq.language <> language def
+R1291:1291 PDCoq.reg_expr <> x var
+R1309:1311 PDCoq.language <> ::'∅' not
+R1324:1327 PDCoq.language <> ::'{ε}' not
+R1335:1336 PDCoq.reg_expr <> ::'\!'_x not
+R1342:1343 PDCoq.language <> ::'{{'_x_'}}' not
+R1345:1346 PDCoq.language <> ::'{{'_x_'}}' not
+R1355:1357 PDCoq.reg_expr <> ::x_'+'_x not
+R1363:1363 PDCoq.language <> ::x_'∪'_x not
+R1372:1378 PDCoq.language <> ::x_'∪'_x not
+R1387:1387 PDCoq.language <> ::x_'∪'_x not
+R1364:1369 PDCoq.reg_expr <> re2rel def
+R1379:1384 PDCoq.reg_expr <> re2rel def
+R1396:1399 PDCoq.reg_expr <> ::x_'·'_x not
+R1405:1405 PDCoq.language <> ::x_'•'_x not
+R1414:1420 PDCoq.language <> ::x_'•'_x not
+R1429:1429 PDCoq.language <> ::x_'•'_x not
+R1406:1411 PDCoq.reg_expr <> re2rel def
+R1421:1426 PDCoq.reg_expr <> re2rel def
+R1438:1441 PDCoq.reg_expr <> ::x_'⋆' not
+R1446:1446 PDCoq.language <> ::x_'∗' not
+R1455:1459 PDCoq.language <> ::x_'∗' not
+R1447:1452 PDCoq.reg_expr <> re2rel def
+R1478:1483 PDCoq.reg_expr <> re2rel def
+inst 1523:1530 <> re2rel_m
+R1534:1539 Coq.Classes.Morphisms <> Proper class
+R1553:1558 PDCoq.reg_expr <> re2rel def
+R1543:1547 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R1541:1542 Coq.Init.Logic <> eq ind
+R1548:1550 PDCoq.language <> leq def
+prf 1632:1643 <> re2rel_is_RL
+R1656:1657 PDCoq.reg_expr <> re ind
+R1660:1661 PDCoq.language <> rl ind
+R1663:1663 PDCoq.reg_expr <> r var
+prf 1805:1809 <> re_wf
+R1822:1823 PDCoq.reg_expr <> re ind
+R1826:1836 PDCoq.language <> language_wf def
+R1839:1839 PDCoq.reg_expr <> r var
+prf 2175:2183 <> re_sy_dec
+R2200:2201 PDCoq.reg_expr <> re ind
+R2204:2204 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2210:2212 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2219:2219 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2207:2207 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2205:2206 PDCoq.reg_expr <> r1 var
+R2208:2209 PDCoq.reg_expr <> r2 var
+R2215:2216 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R2213:2214 PDCoq.reg_expr <> r1 var
+R2217:2218 PDCoq.reg_expr <> r2 var
+R2273:2280 Coq.ZArith.ZArith_dec <> Z_eq_dec syndef
+R2273:2280 Coq.ZArith.ZArith_dec <> Z_eq_dec syndef
+def 2490:2496 <> c_of_re
+R2502:2503 PDCoq.reg_expr <> re ind
+R2508:2511 Coq.Init.Datatypes <> bool ind
+R2692:2698 PDCoq.reg_expr <> c_of_re def
+R2524:2524 PDCoq.reg_expr <> r var
+R2543:2547 Coq.Init.Datatypes <> false constr
+R2560:2563 Coq.Init.Datatypes <> true constr
+R2571:2572 PDCoq.reg_expr <> ::'\!'_x not
+R2578:2582 Coq.Init.Datatypes <> false constr
+R2591:2593 PDCoq.reg_expr <> ::x_'⋆' not
+R2598:2601 Coq.Init.Datatypes <> true constr
+R2610:2612 PDCoq.reg_expr <> ::x_'+'_x not
+R2623:2626 Coq.Init.Datatypes <> :bool_scope:x_'||'_x not
+R2618:2620 PDCoq.reg_expr <> ::'ε('_x_')' not
+R2622:2622 PDCoq.reg_expr <> ::'ε('_x_')' not
+R2627:2629 PDCoq.reg_expr <> ::'ε('_x_')' not
+R2631:2631 PDCoq.reg_expr <> ::'ε('_x_')' not
+R2640:2643 PDCoq.reg_expr <> ::x_'·'_x not
+R2654:2657 Coq.Init.Datatypes <> :bool_scope:x_'&&'_x not
+R2649:2651 PDCoq.reg_expr <> ::'ε('_x_')' not
+R2653:2653 PDCoq.reg_expr <> ::'ε('_x_')' not
+R2658:2660 PDCoq.reg_expr <> ::'ε('_x_')' not
+R2662:2662 PDCoq.reg_expr <> ::'ε('_x_')' not
+R2692:2698 PDCoq.reg_expr <> c_of_re def
+not 2678 <> ::'ε('_x_')'
+R2718:2724 PDCoq.reg_expr <> c_of_re def
+def 3157:3164 <> lc_of_re
+R3170:3171 PDCoq.reg_expr <> re ind
+R3180:3182 PDCoq.reg_expr <> ::'ε('_x_')' not
+R3184:3184 PDCoq.reg_expr <> ::'ε('_x_')' not
+R3183:3183 PDCoq.reg_expr <> r var
+R3201:3203 PDCoq.language <> ::'∅' not
+R3191:3194 PDCoq.language <> ::'{ε}' not
+R3230:3237 PDCoq.reg_expr <> lc_of_re def
+not 3215 <> ::'ε''('_x_')'
+inst 3269:3278 <> lc_of_re_m
+R3282:3287 Coq.Classes.Morphisms <> Proper class
+R3301:3308 PDCoq.reg_expr <> lc_of_re def
+R3291:3295 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R3289:3290 Coq.Init.Logic <> eq ind
+R3296:3298 PDCoq.language <> leq def
+R3327:3334 PDCoq.reg_expr <> lc_of_re def
+R3373:3375 PDCoq.reg_expr <> ::'ε('_x_')' not
+R3377:3377 PDCoq.reg_expr <> ::'ε('_x_')' not
+R3373:3375 PDCoq.reg_expr <> ::'ε('_x_')' not
+R3377:3377 PDCoq.reg_expr <> ::'ε('_x_')' not
+def 3506:3514 <> c_c_of_re
+R3519:3520 PDCoq.reg_expr <> re ind
+R3529:3531 PDCoq.reg_expr <> ::'ε('_x_')' not
+R3533:3533 PDCoq.reg_expr <> ::'ε('_x_')' not
+R3532:3532 PDCoq.reg_expr <> r var
+R3575:3583 PDCoq.reg_expr <> c_c_of_re def
+not 3559 <> ::'ε''''('_x_')'
+prf 3609:3621 <> c_of_c_c_true
+R3666:3668 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3659:3663 PDCoq.reg_expr <> ::'ε''''('_x_')' not
+R3665:3665 PDCoq.reg_expr <> ::'ε''''('_x_')' not
+R3664:3664 PDCoq.reg_expr <> r var
+R3648:3650 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3643:3645 PDCoq.reg_expr <> ::'ε('_x_')' not
+R3647:3647 PDCoq.reg_expr <> ::'ε('_x_')' not
+R3646:3646 PDCoq.reg_expr <> r var
+R3651:3654 Coq.Init.Datatypes <> true constr
+R3699:3707 PDCoq.reg_expr <> c_c_of_re def
+prf 3737:3750 <> c_of_c_c_false
+R3795:3797 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3788:3792 PDCoq.reg_expr <> ::'ε''''('_x_')' not
+R3794:3794 PDCoq.reg_expr <> ::'ε''''('_x_')' not
+R3793:3793 PDCoq.reg_expr <> r var
+R3776:3778 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3771:3773 PDCoq.reg_expr <> ::'ε('_x_')' not
+R3775:3775 PDCoq.reg_expr <> ::'ε('_x_')' not
+R3774:3774 PDCoq.reg_expr <> r var
+R3779:3783 Coq.Init.Datatypes <> false constr
+R3828:3836 PDCoq.reg_expr <> c_c_of_re def
+prf 3866:3878 <> c_c_of_c_true
+R3920:3922 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3915:3917 PDCoq.reg_expr <> ::'ε('_x_')' not
+R3919:3919 PDCoq.reg_expr <> ::'ε('_x_')' not
+R3918:3918 PDCoq.reg_expr <> r var
+R3923:3926 Coq.Init.Datatypes <> true constr
+R3907:3909 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3900:3904 PDCoq.reg_expr <> ::'ε''''('_x_')' not
+R3906:3906 PDCoq.reg_expr <> ::'ε''''('_x_')' not
+R3905:3905 PDCoq.reg_expr <> r var
+R3956:3964 PDCoq.reg_expr <> c_c_of_re def
+R3980:3982 PDCoq.reg_expr <> ::'ε('_x_')' not
+R3984:3984 PDCoq.reg_expr <> ::'ε('_x_')' not
+R3980:3982 PDCoq.reg_expr <> ::'ε('_x_')' not
+R3984:3984 PDCoq.reg_expr <> ::'ε('_x_')' not
+prf 4012:4025 <> c_c_of_c_false
+R4067:4069 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4062:4064 PDCoq.reg_expr <> ::'ε('_x_')' not
+R4066:4066 PDCoq.reg_expr <> ::'ε('_x_')' not
+R4065:4065 PDCoq.reg_expr <> r var
+R4070:4074 Coq.Init.Datatypes <> false constr
+R4054:4056 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4047:4051 PDCoq.reg_expr <> ::'ε''''('_x_')' not
+R4053:4053 PDCoq.reg_expr <> ::'ε''''('_x_')' not
+R4052:4052 PDCoq.reg_expr <> r var
+R4104:4112 PDCoq.reg_expr <> c_c_of_re def
+R4128:4130 PDCoq.reg_expr <> ::'ε('_x_')' not
+R4132:4132 PDCoq.reg_expr <> ::'ε('_x_')' not
+R4128:4130 PDCoq.reg_expr <> ::'ε('_x_')' not
+R4132:4132 PDCoq.reg_expr <> ::'ε('_x_')' not
+R4170:4182 PDCoq.reg_expr <> c_of_c_c_true thm
+R4187:4200 PDCoq.reg_expr <> c_of_c_c_false thm
+R4204:4216 PDCoq.reg_expr <> c_c_of_c_true thm
+R4220:4233 PDCoq.reg_expr <> c_c_of_c_false thm
+prf 4301:4311 <> c_of_re_dec
+R4333:4333 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4347:4349 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4362:4362 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4339:4341 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4334:4336 PDCoq.reg_expr <> ::'ε('_x_')' not
+R4338:4338 PDCoq.reg_expr <> ::'ε('_x_')' not
+R4337:4337 PDCoq.reg_expr <> r var
+R4342:4346 Coq.Init.Datatypes <> false constr
+R4355:4357 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4350:4352 PDCoq.reg_expr <> ::'ε('_x_')' not
+R4354:4354 PDCoq.reg_expr <> ::'ε('_x_')' not
+R4353:4353 PDCoq.reg_expr <> r var
+R4358:4361 Coq.Init.Datatypes <> true constr
+R4391:4393 PDCoq.reg_expr <> ::'ε('_x_')' not
+R4395:4395 PDCoq.reg_expr <> ::'ε('_x_')' not
+R4391:4393 PDCoq.reg_expr <> ::'ε('_x_')' not
+R4395:4395 PDCoq.reg_expr <> ::'ε('_x_')' not
+prf 4458:4470 <> null_eps_in_l
+R4485:4486 PDCoq.reg_expr <> re ind
+R4510:4514 PDCoq.language <> ::x_'∈'_x not
+R4515:4520 PDCoq.reg_expr <> re2rel def
+R4522:4522 PDCoq.reg_expr <> r var
+R4508:4509 PDCoq.base <> ::'[]' not
+R4497:4499 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4492:4494 PDCoq.reg_expr <> ::'ε('_x_')' not
+R4496:4496 PDCoq.reg_expr <> ::'ε('_x_')' not
+R4495:4495 PDCoq.reg_expr <> r var
+R4500:4503 Coq.Init.Datatypes <> true constr
+R4766:4776 Coq.Lists.List <> app_nil_end thm
+R4766:4776 Coq.Lists.List <> app_nil_end thm
+prf 4858:4870 <> eps_in_l_null
+R4885:4886 PDCoq.reg_expr <> re ind
+R4916:4918 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4911:4913 PDCoq.reg_expr <> ::'ε('_x_')' not
+R4915:4915 PDCoq.reg_expr <> ::'ε('_x_')' not
+R4914:4914 PDCoq.reg_expr <> r var
+R4919:4922 Coq.Init.Datatypes <> true constr
+R4894:4898 PDCoq.language <> ::x_'∈'_x not
+R4899:4904 PDCoq.reg_expr <> re2rel def
+R4906:4906 PDCoq.reg_expr <> r var
+R4892:4893 PDCoq.base <> ::'[]' not
+R5060:5069 Coq.Lists.List <> app_eq_nil thm
+R5060:5069 Coq.Lists.List <> app_eq_nil thm
+prf 5114:5129 <> not_eps_not_in_l
+R5144:5145 PDCoq.reg_expr <> re ind
+R5168:5168 Coq.Init.Logic <> :type_scope:'~'_x not
+R5171:5175 PDCoq.language <> ::x_'∈'_x not
+R5176:5181 PDCoq.reg_expr <> re2rel def
+R5183:5183 PDCoq.reg_expr <> r var
+R5169:5170 PDCoq.base <> ::'[]' not
+R5156:5158 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5151:5153 PDCoq.reg_expr <> ::'ε('_x_')' not
+R5155:5155 PDCoq.reg_expr <> ::'ε('_x_')' not
+R5154:5154 PDCoq.reg_expr <> r var
+R5159:5163 Coq.Init.Datatypes <> false constr
+R5464:5473 Coq.Lists.List <> app_eq_nil thm
+R5464:5473 Coq.Lists.List <> app_eq_nil thm
+R5464:5473 Coq.Lists.List <> app_eq_nil thm
+prf 5518:5532 <> neg_not_in_conc
+R5551:5552 PDCoq.reg_expr <> re ind
+R5600:5603 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R5581:5581 Coq.Init.Logic <> :type_scope:'~'_x not
+R5584:5589 PDCoq.language <> ::x_'∈'_x not
+R5599:5599 PDCoq.language <> ::x_'∈'_x not
+R5590:5595 PDCoq.reg_expr <> re2rel def
+R5597:5598 PDCoq.reg_expr <> r1 var
+R5582:5583 PDCoq.base <> ::'[]' not
+R5604:5604 Coq.Init.Logic <> :type_scope:'~'_x not
+R5607:5612 PDCoq.language <> ::x_'∈'_x not
+R5622:5622 PDCoq.language <> ::x_'∈'_x not
+R5613:5618 PDCoq.reg_expr <> re2rel def
+R5620:5621 PDCoq.reg_expr <> r2 var
+R5605:5606 PDCoq.base <> ::'[]' not
+R5557:5558 Coq.Init.Logic <> :type_scope:'~'_x not
+R5561:5566 PDCoq.language <> ::x_'∈'_x not
+R5576:5576 PDCoq.language <> ::x_'∈'_x not
+R5569:5573 PDCoq.language <> ::x_'•'_x not
+R5567:5568 PDCoq.reg_expr <> r1 var
+R5574:5575 PDCoq.reg_expr <> r2 var
+R5559:5560 PDCoq.base <> ::'[]' not
+R5658:5668 PDCoq.reg_expr <> c_of_re_dec thm
+R5658:5668 PDCoq.reg_expr <> c_of_re_dec thm
+R5683:5698 PDCoq.reg_expr <> not_eps_not_in_l thm
+R5683:5698 PDCoq.reg_expr <> not_eps_not_in_l thm
+R5739:5751 PDCoq.reg_expr <> null_eps_in_l thm
+R5771:5781 Coq.Lists.List <> app_nil_end thm
+R5739:5751 PDCoq.reg_expr <> null_eps_in_l thm
+R5771:5781 Coq.Lists.List <> app_nil_end thm
+prf 5810:5825 <> not_in_l_not_eps
+R5840:5841 PDCoq.reg_expr <> re ind
+R5872:5874 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5867:5869 PDCoq.reg_expr <> ::'ε('_x_')' not
+R5871:5871 PDCoq.reg_expr <> ::'ε('_x_')' not
+R5870:5870 PDCoq.reg_expr <> r var
+R5875:5879 Coq.Init.Datatypes <> false constr
+R5847:5847 Coq.Init.Logic <> :type_scope:'~'_x not
+R5850:5854 PDCoq.language <> ::x_'∈'_x not
+R5855:5860 PDCoq.reg_expr <> re2rel def
+R5862:5862 PDCoq.reg_expr <> r var
+R5848:5849 PDCoq.base <> ::'[]' not
+R5989:5993 PDCoq.language <> ::x_'∈'_x not
+R5994:5997 PDCoq.language <> ::'{ε}' not
+R5987:5988 PDCoq.base <> ::'[]' not
+R5989:5993 PDCoq.language <> ::x_'∈'_x not
+R5994:5997 PDCoq.language <> ::'{ε}' not
+R5987:5988 PDCoq.base <> ::'[]' not
+R6040:6056 PDCoq.language_proofs <> neg_not_nil_aux_1 thm
+R6040:6056 PDCoq.language_proofs <> neg_not_nil_aux_1 thm
+R6112:6126 PDCoq.reg_expr <> neg_not_in_conc thm
+R6112:6126 PDCoq.reg_expr <> neg_not_in_conc thm
+R6162:6167 PDCoq.language <> ::x_'∈'_x not
+R6173:6173 PDCoq.language <> ::x_'∈'_x not
+R6169:6172 PDCoq.language <> ::x_'∗' not
+R6160:6161 PDCoq.base <> ::'[]' not
+R6199:6199 Coq.Init.Datatypes <> O constr
+R6162:6167 PDCoq.language <> ::x_'∈'_x not
+R6173:6173 PDCoq.language <> ::x_'∈'_x not
+R6169:6172 PDCoq.language <> ::x_'∗' not
+R6160:6161 PDCoq.base <> ::'[]' not
+R6199:6199 Coq.Init.Datatypes <> O constr
+R6264:6276 PDCoq.reg_expr <> null_eps_in_l thm
+R6280:6292 PDCoq.reg_expr <> eps_in_l_null thm
+R6296:6311 PDCoq.reg_expr <> not_eps_not_in_l thm
+R6315:6329 PDCoq.reg_expr <> neg_not_in_conc thm
+R6333:6348 PDCoq.reg_expr <> not_in_l_not_eps thm

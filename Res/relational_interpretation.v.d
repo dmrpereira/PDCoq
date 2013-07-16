@@ -1,0 +1,1 @@
+relational_interpretation.vo relational_interpretation.glob relational_interpretation.v.beautified: relational_interpretation.v ./base.vo ./pdrvs.vo ./decide.vo ./Plug.vo /Users/dpereira/Source/Cont84_1/theories/Maps.vo
