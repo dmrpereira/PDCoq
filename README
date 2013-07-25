@@ -1,0 +1,6 @@
+The PDCoq development includes:
+- a formalization of regular expressions and a correct decision procedure;
+- the same for terms of Kleene algebra with tests.
+
+The requirements for playing with PDCoq is Coq version 8.4 and the Containers 
+library.
